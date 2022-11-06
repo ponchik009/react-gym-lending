@@ -20,7 +20,7 @@ const Hero = () => {
         {/* заголовок */}
         <div className="hero-text">
           <div>
-            <span class="stroke-text">Shape </span>
+            <span className="stroke-text">Shape </span>
             <span>Your</span>
           </div>
           <div>
