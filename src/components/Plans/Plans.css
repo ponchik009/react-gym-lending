@@ -73,3 +73,17 @@
 .feature > img {
   width: 1rem;
 }
+
+.blur-p-1 {
+  width: 32rem;
+  height: 23rem;
+  top: 6rem;
+  left: 0;
+}
+
+.blur-p-2 {
+  width: 32rem;
+  height: 23rem;
+  top: 10rem;
+  right: 0;
+}

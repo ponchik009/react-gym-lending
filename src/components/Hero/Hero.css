@@ -38,7 +38,7 @@
 }
 
 .the-best-ad::after {
-  content: '';
+  content: "";
   position: absolute;
   background-color: var(--orange);
   width: 5.4rem;
@@ -131,7 +131,6 @@
   width: 2rem;
 }
 
-
 .heart-rate > span:nth-of-type(1) {
   color: var(--gray);
 }
@@ -185,4 +184,10 @@
 .calories > div > :last-child {
   color: white;
   font-size: 1.5rem;
+}
+
+.blur-h {
+  width: 22rem;
+  height: 30rem;
+  left: 0;
 }
