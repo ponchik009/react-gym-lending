@@ -75,3 +75,54 @@
   width: 1.5rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .Testimonials {
+    flex-direction: column;
+  }
+
+  .left-t > :nth-child(2),
+  .left-t > :nth-child(3) {
+    font-size: xx-large;
+  }
+
+  .right-t {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .right-t > div {
+    position: relative;
+    display: flex;
+  }
+
+  .right-t > img {
+    top: 0rem;
+    right: 0;
+    position: relative;
+    align-self: center;
+  }
+
+  .right-t > :last-child {
+    display: block;
+    bottom: 0;
+    left: 0;
+  }
+
+  .right-t > :nth-child(1) {
+    /* position: absolute;
+    right: 3rem;
+    top: 0rem; */
+    display: none;
+  }
+
+  .right-t > :nth-child(2) {
+    /* position: absolute;
+    right: 1rem;
+    top: 3rem; */
+    display: none;
+  }
+}
